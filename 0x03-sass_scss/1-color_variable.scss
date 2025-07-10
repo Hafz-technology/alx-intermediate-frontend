@@ -1,0 +1,14 @@
+
+// _colors.scss (a partial for color variables)
+$text-color: #3D3D3D;
+
+
+@use 'colors'; 
+
+body {
+  color: colors.$text-color; 
+}
+
+p {
+  color: colors.$text-color; 
+}
